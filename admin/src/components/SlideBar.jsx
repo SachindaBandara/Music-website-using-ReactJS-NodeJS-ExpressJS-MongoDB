@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 
 const SlideBar = () => {
   return (
-    <div className="bg-[#bcbbbb] min-h-screen pl-[4vw]">
+    <div className="bg-[#cfcfcf] min-h-screen pl-[4vw]">
       <img
         className="mt-20 mr-10 h-[100px] w-[max(10vw, 100px)] hidden sm:block "
         src={assets.logo}

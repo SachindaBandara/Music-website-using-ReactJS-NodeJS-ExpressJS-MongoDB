@@ -26,10 +26,10 @@ const NavBar = () => {
           <p className="bg-purple-500 text-black w-7 h-7 rounded-full flex items-center justify-center">S</p>
         </div>
       </div>
-      <div className="flex items-center gap-2 mt-4">
+      <div className="flex items-center gap-2 mt-6 mb-6">
         <p className="bg-white text-black px-4 py-1 rounded-2xl">All</p>
         <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">Music</p>
-        <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">Podcasts</p>
+        <p className="bg-black px-4 py-1 rounded-2xl cursor-pointer">Albums</p>
       </div>
     </>
   );
