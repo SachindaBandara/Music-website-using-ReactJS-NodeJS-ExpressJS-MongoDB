@@ -12,7 +12,7 @@ const SlideBar = () => {
       />
       <img
         className="mt-5 w-[max(5vw, 40px)] mr-5 sm:hidden block"
-        src={assets.logo-small}
+        src={assets.logo_small}
         alt=""
       />
 

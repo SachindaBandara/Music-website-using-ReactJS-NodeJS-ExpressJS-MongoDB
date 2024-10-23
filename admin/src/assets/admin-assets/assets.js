@@ -1,5 +1,5 @@
 import logo from './Tunes_logo.png'
-import logo_small from './logo-small.png'
+import logo_small from './logo_small.png'
 import upload_area from './upload_area.png'
 import upload_added from './upload_added.png'
 import add_album from './add_album.png'
