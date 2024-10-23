@@ -38,12 +38,12 @@ const AddAlbum = () => {
 
   return loading ? (
     <div className="grid place-items-center min-h-[80vh]">
-      <div className="w-16 h-16 place-self-center border-4 border-gray-400 border-t-green-800 rounded-full animate-spin"></div>
+      <div className="w-16 h-16 place-self-center border-4 border-gray-400 border-t-gray-800 rounded-full animate-spin"></div>
     </div>
   ) : (
     <form
       onSubmit={onSubmitHandler}
-      className="flex flex-col items-start gap-8 text-gray-600"
+      className="flex flex-col items-start gap-8 text-gray-600 text-lg"
     >
       <div className="flex flex-col gap-4">
         <p>Upload image</p>
@@ -70,7 +70,7 @@ const AddAlbum = () => {
           value={name}
           type="text"
           placeholder="Type here"
-          className="bg-transparent outline-green-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
+          className="bg-transparent outline-gray-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
           required
         />
       </div>
@@ -82,7 +82,7 @@ const AddAlbum = () => {
           value={desc}
           type="text"
           placeholder="Type here"
-          className="bg-transparent outline-green-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
+          className="bg-transparent outline-gray-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
         />
       </div>
       <div className="flex flex-col gap-3">

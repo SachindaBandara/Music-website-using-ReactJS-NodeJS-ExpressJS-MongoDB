@@ -1,4 +1,4 @@
-import logo from './logo.png'
+import logo from './Tunes_logo.png'
 import logo_small from './logo_small.png'
 import upload_area from './upload_area.png'
 import upload_added from './upload_added.png'

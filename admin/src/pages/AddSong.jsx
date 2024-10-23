@@ -62,12 +62,12 @@ const AddSong = () => {
   }, []);
   return loading ? (
     <div className="grid place-items-center min-h-[80vh]">
-      <div className="w-16 h-16 place-self-center border-4 border-gray-400 border-t-green-800 rounded-full animate-spin"></div>
+      <div className="w-16 h-16 place-self-center border-4 border-gray-400 border-t-gray-800 rounded-full animate-spin"></div>
     </div>
   ) : (
     <form
       onSubmit={onSubmitHandler}
-      className="flex flex-col items-start gap-8 text-gray-600"
+      className="flex flex-col items-start gap-8 text-gray-600 text-lg"
     >
       <div className="flex gap-8">
         <div className="flex flex-col gap-4">
@@ -111,7 +111,7 @@ const AddSong = () => {
         <input
           onChange={(e) => setName(e.target.value)}
           value={name}
-          className="bg-transparent outline-green-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
+          className="bg-transparent outline-gray-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
           type="text"
           placeholder="Type here"
           required
@@ -123,7 +123,7 @@ const AddSong = () => {
         <input
           onChange={(e) => setDesc(e.target.value)}
           value={desc}
-          className="bg-transparent outline-green-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
+          className="bg-transparent outline-gray-600 border-2 border-gray-400 p-2.5 w-[max(40vw, 250px)]"
           type="text"
           placeholder="Type here"
           required
@@ -135,7 +135,7 @@ const AddSong = () => {
         <select
           onChange={(e) => setAlbum(e.target.value)}
           defaultValue={album}
-          className="bg-transparent outline-green-600 border-2 boder-gray-400 p-2.5 w-[150px]"
+          className="bg-transparent outline-gray-600 border-2 boder-gray-400 p-2.5 w-[150px]"
         >
           <option value="none">None</option>
           {albumData.map((item, index) => (
@@ -147,7 +147,7 @@ const AddSong = () => {
       </div>
 
       <button
-        className="text-base bg-black py-2.5 px-14 cursor-pointer"
+        className="text-base text-white bg-black py-2.5 px-14 cursor-pointer"
         type="submit"
       >
         Add
