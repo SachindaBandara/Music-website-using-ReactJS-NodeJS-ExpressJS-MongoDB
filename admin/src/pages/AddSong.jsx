@@ -5,8 +5,8 @@ import { url } from "../App";
 import { toast } from "react-toastify";
 
 const AddSong = () => {
-  const [image, setImage] = useState(false);
-  const [song, setSong] = useState(false);
+  const [image, setImage] = useState(null);
+  const [song, setSong] = useState(null);
   const [name, setName] = useState("");
   const [desc, setDesc] = useState("");
   const [album, setAlbum] = useState("none");
