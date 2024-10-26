@@ -24,7 +24,7 @@ const AddAlbum = () => {
       const response = await axios.post(`${url}/api/album/add`, formData);
       if (response.data.success) {
         toast.success("Album Added");
-        setDesc(""); 
+        setDesc("");
         setImage(false);
         setName("");
       } else {
