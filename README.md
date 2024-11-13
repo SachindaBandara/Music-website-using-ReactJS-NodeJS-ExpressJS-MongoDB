@@ -63,7 +63,7 @@ A dynamic and user-friendly online music website built with the MERN stack, feat
    
 3. **Access the website:** Open your browser and go to http://localhost:5173 to view and interact with the music site.
 
-4. 2. **Run the admin panel development server:**
+4. **Run the admin panel development server:**
    ```bash
    cd ../admin
    npm run dev
