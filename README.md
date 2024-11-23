@@ -1,4 +1,4 @@
-# Tunes Online Music Website 🎵
+# 🎵 Tunes Online Music Website 
 
 A dynamic and user-friendly online music website built with the MERN stack, featuring a music player, album listings, and an admin panel for managing songs and albums.
 
