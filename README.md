@@ -2,8 +2,6 @@
 
 A dynamic and user-friendly online music website built with the MERN stack, featuring a music player, album listings, and an admin panel for managing songs and albums.
 
-![Image](musicWeb/src/assets/frontend-assets/Tunes.png)
-
 ## Tech Stack
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
